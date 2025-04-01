@@ -1,12 +1,19 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+    /**
+* <h1>ContaTerminal</h1>
+* ContaTerminal é um sistema que simula a criação de uma conta bancária, solicitando dados básicos do usuário via terminal e exibindo uma mensagem personalizada com as informações inseridas.
+* <p>
+* <b>Autor: </b> 
+*
+* @author Julio Rengel
+* @version 1.0
+* @since   01/04/2025
+*/
+
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        // Todo: Conhecer e importar a classe Scanner
-        // Exibir as mensagens para nossos usuarios
-        // Obter pela classe Scaner os valores digitados no terminal
-        // Exibir a mensagem conta criada. 
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
